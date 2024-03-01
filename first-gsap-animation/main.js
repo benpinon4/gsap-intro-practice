@@ -9,7 +9,7 @@ console.log("my target", document.querySelectorAll(".box"));
 console.log("my target " + paragraph);
 
 
-button.addEventListener("click",()=>{
+button2.addEventListener("click",()=>{
 
     gsap.to(".box", { 
         x: 200,
@@ -17,7 +17,7 @@ button.addEventListener("click",()=>{
       });
 })
 
-button2.addEventListener("click",()=>{
+button.addEventListener("click",()=>{
 
     gsap.to(".box", { 
         x: 0,
