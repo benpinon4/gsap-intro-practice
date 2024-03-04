@@ -1,0 +1,28 @@
+body {
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+
+}
+
+.div1 {
+
+    min-height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    border: solid red;
+    
+}
+
+.box1 {
+    position: absolute;
+    top: 300px;
+    left: 300px;
+
+    height: 100px;
+    width: 25px;
+    background-color: greenyellow;
+ }
+
